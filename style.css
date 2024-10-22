@@ -1,3 +1,8 @@
+*{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -5,12 +10,39 @@ body{
     height: 100vh;
 }
 
-.main {
+.card {
     background-color: rgb(231, 191, 250);
-
-    width: 500px;
-    height: 400px;
-    padding: 20px;
-    border-radius: 40px;
     
+    width: 500px;
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.input-add-task{
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    height: 20px;
+    outline: none;
+    padding: 7px;
+}
+
+.btn-add-task{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    background-color: rgb(253, 249, 243);
+
+}
+
+.btn-add-task:hover{
+    background-color: rgb(248, 236, 255);
 }
